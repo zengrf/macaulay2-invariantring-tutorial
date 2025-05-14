@@ -1,0 +1,77 @@
+INFO    : Building target web
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : converting latex-image pictures from /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx to svg graphics for placement in /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'cli.version': '2.17', 'publisher': '/Users/zengrf/Downloads/pretext-invariant-ring-tutorial/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source
+INFO    : verifying and expanding input directory: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/generated-assets
+INFO    : verifying and expanding input directory: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/../assets
+INFO    : input directory expanded to absolute path: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/assets
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/extract-latex-image.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/extract-latex-image.xsl
+INFO    : converting tikz-example-diagram.tex to tikz-example-diagram.pdf
+INFO    : cropping tikz-example-diagram.pdf to cropped-tikz-example-diagram.pdf
+INFO    : renaming cropped-tikz-example-diagram.pdf to tikz-example-diagram.pdf
+INFO    : converting tikz-example-diagram.pdf to tikz-example-diagram.svg
+INFO    : Removing temporary directory /var/folders/v5/ryfdj35x52s_n93xnk164f2m0000gn/T/ptx-egbqf01z
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/output/web.
+INFO    : discovering source file's directory name: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source
+INFO    : verifying and expanding input directory: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/generated-assets
+INFO    : verifying and expanding input directory: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/../assets
+INFO    : input directory expanded to absolute path: /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/assets
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.6.2
+INFO    : Downloading Runestone Services, version 7.6.2
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx to HTML in /var/folders/v5/ryfdj35x52s_n93xnk164f2m0000gn/T/ptx-07piwkyy
+INFO    : XSL conversion of /Users/zengrf/Downloads/pretext-invariant-ring-tutorial/source/main.ptx by /Users/zengrf/.ptx/2.17.1/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /Users/zengrf/.ptx/2.17.1/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /var/folders/v5/ryfdj35x52s_n93xnk164f2m0000gn/T/ptx-07piwkyy
+INFO    : Removing temporary directory /var/folders/v5/ryfdj35x52s_n93xnk164f2m0000gn/T/ptx-iy63xr2m
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : 
