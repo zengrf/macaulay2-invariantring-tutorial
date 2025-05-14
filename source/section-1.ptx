@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="section-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Macaulay2</title>
+  <subsection xml:id="subsection-1">
+    <title>What is Macaulay2? (from the official website)</title>
+    <p>Macaulay2 is a software system created by Dan Grayson and Mike Stillman devoted to supporting research in algebraic geometry and commutative algebra. Macaulay2 includes core algorithms for computing Gröbner bases and graded or multi-graded free resolutions of modules over quotient rings of graded or multi-graded polynomial rings with a monomial ordering. [...] Macaulay2 can compute Betti numbers, Ext, cohomology of coherent sheaves on projective varieties, primary decomposition of ideals, integral closure of rings, and more.</p>
+  </subsection>
+
+<subsection xml:id="subsec-2">
+  <title>What can Macaulay2 do? </title>
+  <p>
+    It has your favorite rings of coefficients coefficients.
+  </p>
+  <sage language="macaulay2">
+  <input>
+ZZ
+QQ
+RR
+CC 
+ZZ/196879
+  </input>
+  <output>...</output>
+  </sage>
+  <p>
+    We can define polynomial rings with ease ...
+  </p>
+  <sage language="macaulay2">
+    <input> ZZ[t]
+    </input>
+    <output>...</output>
+    </sage>
+    <sage language="macaulay2">
+      <input> RR[x_1..x_3]
+      </input>
+      <output>...</output>
+    </sage>
+    <sage language="macaulay2">
+      <input> R = QQ[z_(1,1)..z_(4,4)]
+      </input>
+      <output>...</output>
+      </sage>
+      <sage language="macaulay2">
+        <input> gens R
+        </input>
+        <output>...</output>
+        </sage>
+    <p>
+      ... and define ideals.
+    </p>
+    <sage language="macaulay2">
+      <input> mat44 = genericMatrix(R, z_(1,1), 4, 4)
+det44 = det mat44
+I = ideal(det44 - 1)
+      </input>
+      <output>...</output>
+      </sage>
+    <p>
+      We can define the quotient ring 
+    </p>
+    <sage language="macaulay2">
+      <input> R' = R / I
+      </input>
+      <output>...</output>
+      </sage>
+      <p>
+        which is the coordinate ring of <m>SL_4</m>. We can localize the ring at a prime ideal.
+      </p>
+      <sage language="macaulay2">
+        <input> needsPackage "LocalRings"
+          I' = ideal gens R
+          localRing(R, I')
+        </input>
+        <output>...</output>
+        </sage>
+
+</subsection>
+
+<subsection xml:id="subsec-3">
+  <title>What more can Macaulay2 do?</title>
+  <p>
+    Macaulay2 is by design good at resolutions and Gröbner bases. Let's start with resolutions. For a polynomial ring, <c>gens R</c> returns the <c>List</c> of generators, while <c>vars R</c> returns the generators as a one-row <c>Matrix</c>.
+  </p>
+  <sage language="macaulay2">
+    <input> restart
+R = QQ[x..z]
+vars R
+    </input>
+    <output>...</output>
+    </sage>
+    <p>
+      Given a <c>Matrix</c>, we can take its <c>cokernel</c>.
+    </p>
+    <sage language="macaulay2">
+      <input> M = cokernel vars R
+        peek M
+      </input>
+      <output>...</output>
+      </sage>
+<p>
+  Now that <m>M</m> is an <m>R</m>-<c>Module</c>, Macaulay2 knows how to produce a free resolution.
+</p>
+<sage language="macaulay2">
+  <input> C = res M
+    peek C
+  </input>
+  <output>...</output>
+  </sage>
+  <p>
+    ... and since <m>C</m> is a <c>ChainComplex</c>, we can access its differentials.
+  </p>
+  <sage language="macaulay2">
+    <input> C.dd
+    </input>
+    <output>...</output>
+    </sage>
+    <p>
+      We want to see that <m>C</m> is indeed a chain complex. Indeed, the differentials composed twice would be
+    </p>
+    <sage language="macaulay2">
+      <input> C.dd^2
+      </input>
+      <output>...</output>
+      </sage>
+      <p>
+        Next, let's take a look at Gröbner bases. (<url href="https://math.berkeley.edu/~bernd/what-is.pdf"> <em>What is .. A Gröbner basis?</em> </url>) A Gröbner basis is a set of multivariate polynomials that has desirable algorithmic properties. Every set of polynomials can be transformed into a Gröbner basis. This process generalizes three familiar techniques: <em>Gaussian elimination</em> for solving linear systems of equations, the <em>Euclidean algorithm</em> for computing the greatest common divisor of two univariate polynomials, and the <em>Simplex Algorithm</em> for linear programming.
+      </p>
+      <sage language="macaulay2">
+        <input> restart
+          R = QQ[x..z]
+          I = ideal(x+y+z, x*y + y*z + z*x, x*y*z)
+        </input>
+        <output>...</output>
+        </sage>
+        <sage language="macaulay2">
+          <input> restart
+            gb I
+            gens gb I
+          </input>
+          <output>...</output>
+          </sage>
+</subsection>
+</section>
