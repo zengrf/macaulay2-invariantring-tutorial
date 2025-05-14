@@ -1,0 +1,8 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/source/**.ptx",
+            "systemId": "/Users/zengrf/.vscode/extensions/oscarlevin.pretext-tools-0.28.3/assets/schema/pretext.rng"
+        }
+    ]
+}
