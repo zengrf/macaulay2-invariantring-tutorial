@@ -1,0 +1,16 @@
+INFO    : Now preparing local server to preview your project directory `/Users/zengrf/Downloads/pretext-invariant-ring-tutorial`.
+INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
+INFO    :   GitHub Pages site that can be shared with readers who cannot access your
+INFO    :   personal computer.)
+INFO    : 
+INFO    : starting server ...
+INFO    : setting up ...
+INFO    : values set...
+INFO    : adding server entry
+INFO    : Added server entry 99af7dab24 41938 8128 localhost
+
+INFO    : Starting the server
+INFO    : Server will soon be available at http://localhost:8128
+INFO    : Opening browser for target `web` at http://localhost:8128/output/web
+INFO    : Stopping server.
+INFO    : 

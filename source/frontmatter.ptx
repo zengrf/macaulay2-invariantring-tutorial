@@ -1,0 +1,20 @@
+
+<frontmatter>
+<bibinfo>
+<author>
+<personname>Michael R. Zeng</personname>
+</author>
+</bibinfo>
+
+<introduction>
+<p>
+This a tutorial on the computer algebra system Macaulay2 via the package <url href="https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/InvariantRing/html/index.html"><c>InvariantRing</c></url> by <url href="https://msp.org/jsag/2013/5-1/p03.xhtml"> Hawes (2013) </url> and <url href="10.2140/jsag.2024.14.5">Ferraro et.al. (2020)</url>. The package is designed to compute invariants of linearly reductive actions, based partially on the book <url href="https://link.springer.com/book/10.1007%252F978-3-662-48422-7"><em>Computational Invariant Theory</em> (2015)</url> by H. Derksen and G. Kemper. 
+</p>
+<figure>
+    <caption>'Official logo' of M2</caption>
+    <image source="9planets.gif" width="30%">
+    </image>
+  </figure>
+</introduction>
+</frontmatter>
+
